@@ -69,7 +69,7 @@ Este es un proyecto de práctica diseñado para demostrar habilidades en:
 - Desarrollo de APIs con FastAPI
 - Manejo de bases de datos
 - Arquitectura de software
-- Integración de sistemas
+- Integración de sistemas (esta integrado con otro proyecto de llamado BancoLosko)
 
 ## 👨‍💻 Autor
 
