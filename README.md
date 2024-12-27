@@ -91,59 +91,27 @@ uvicorn main:app --reload
 # http://localhost:8000
 ```
 
-## 📁 Estructura del Proyecto
+## 📌 Endpoints Principales
 
-```mermaid
-graph TD
-    A[📦 CajaRegistradora] --> B[📂 app]
-    B --> C[📂 core]
-    B --> D[📂 database]
-    B --> E[📂 models]
-    B --> F[📂 routers]
-    A --> G[📜 main.py]
-    A --> H[📝 requirements.txt]
-    A --> I[📖 README.md]
+- `POST /agregar-producto/`: Agregar un nuevo producto
+- `DELETE /eliminar-producto/{codigo}`: Eliminar un producto existente
+- `PUT /editar-producto/{codigo}`: Actualizar información de un producto
+- `GET /listar-productos/`: Obtener lista de todos los productos
+- `POST /agregar-venta-temporal/`: Agregar producto al carrito
+- `POST /agregar-venta/`: Finalizar venta
 
-    style A fill:#ff9900,stroke:#333,stroke-width:4px
-    style B fill:#00ff00,stroke:#333,stroke-width:2px
-    style G fill:#0099ff,stroke:#333,stroke-width:2px
-```
+## 🧪 Proyecto de Práctica
 
-## 📚 Documentación API
+Este es un proyecto de práctica diseñado para demostrar habilidades en:
+- Desarrollo de APIs con FastAPI
+- Manejo de bases de datos
+- Arquitectura de software
+- Integración de sistemas
 
-<div align="center">
+## 👨‍💻 Autor
 
-| 📘 Swagger UI | 📗 ReDoc |
-|--------------|----------|
-| [localhost:8000/docs](http://localhost:8000/docs) | [localhost:8000/redoc](http://localhost:8000/redoc) |
+Losko
 
-</div>
+## 📝 Nota
 
-## 🛠️ Proceso de Desarrollo
-
-```mermaid
-graph LR
-    A[Aprender] -->|1| B[Codificar]
-    B -->|2| C[Probar]
-    C -->|3| D[Mejorar]
-    D -->|4| A
-
-    style A fill:#ff9900,stroke:#333,stroke-width:2px
-    style D fill:#00ff00,stroke:#333,stroke-width:2px
-```
-
-## 📜 Licencia
-
-<div align="center">
-
-[![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-yellow.svg?style=for-the-badge&logo=opensourceinitiative)](LICENSE)
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="línea">
-
-</div>
+Este es un proyecto de práctica y no está destinado para uso en producción.
